@@ -1,27 +1,25 @@
 *{
-    margin: 0 0 0 0;
+    margin: 0;
     padding: 0;
-    width: 100%;
-    max-width: 100%;
+
 }
-
-
 .main{
     background-color: white;
     overflow: hidden;
 }
 
 .header-image{
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
+    top: -20px;
     position: relative;
     left: 15px;
-    top: -20px;
+    z-index: 1;
 
 }
 nav li{
     position: relative;
-    bottom: 90px;
+    bottom:85px;
     left: 150px;
     font-family: 'job-calerndon' ;
     text-align: center;
@@ -49,15 +47,14 @@ header{
     height: 100px;
     background: #e9edc9;
     z-index: 2;
-    padding: auto;
-    overflow: hidden;
 }
 
 
-.header-image{
-    background-position: center;
+.cocktails{
     height: 100%;
+    width: 100%;
 }
+
 
 
 
@@ -69,8 +66,10 @@ header{
     font-family:  'Franklin Gothic Medium';
     text-transform: uppercase;
     letter-spacing: -.5px;
+    text-size: 20vw;
     top: 110px;
     left: 500px;
+    padding-left: 20p
 }
 
 .mojito-line{
@@ -109,10 +108,7 @@ header{
     top: 40px;
     float: left;
     left:80px;
-    padding-bottom: 400px;
-    padding-right: -50px;
-    min-width: 5%;
-    min-height: 5%;
+
     
 }   
 
@@ -147,12 +143,11 @@ header{
 }
 
 .colada-image{
-    width: 22%;
-    height: 22%;
+    width: 22px;
+    height: 22px;
     float: right;
     position: relative;
     top: 350px;
-    right: 80px;
 }
 
 .colada-text{
